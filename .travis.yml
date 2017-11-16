@@ -1,5 +1,6 @@
 language: ruby
 rvm:
  - 2.4.2
+before_install: sudo apt-get -y install default-jdk
 install: bundle install
-script: echo "here"
+script: ls
